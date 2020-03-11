@@ -8,7 +8,7 @@
 <a name="introduction"></a>
 ## Introduction
 
-Simple Blog is a blog script using Laravel 6.x. It's a product built on Botble CMS.
+Simple Blog is a blog script using Laravel 7.x. It's a product built on Botble CMS.
 
 Created: `13/02/2020`
 

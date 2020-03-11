@@ -9,7 +9,7 @@
 **We recommend to use MAMP PRO (https://www.mamp.info/en/) instead of Xampp to create develop environment. With MAMP, you can easy to add/manage virtual domain like simple-blog.local.**
 
 - Apache, nginx, or another compatible web server.
-- PHP >= 7.2 >> Higher
+- PHP >= 7.2.5 >> Higher
 - MySQL Database server
 - PDO PHP Extension
 - OpenSSL PHP Extension

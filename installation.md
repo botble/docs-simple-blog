@@ -23,7 +23,7 @@
 - Module Re_write server
 - PHP_CURL Module Enable
 
->  {warning} On this project, I use the latest Laravel version (currently 6.x). Please go to [Laravel documentation page](https://laravel.com/docs) for more information.
+>  {warning} On this project, I use the latest Laravel version (currently 7.x). Please go to [Laravel documentation page](https://laravel.com/docs) for more information.
 
 <a name="installation"></a>
 ## Install on hosting
@@ -36,26 +36,34 @@
 
 ### Install manually
 
-* Create `.env` file from `.env-example` and update your configuration
+- Create `.env` file from `.env-example` and update your configuration.
 
-* Run `php artisan migrate` to create database structure with no sample data or import default database from `database.sql` if you need sample data.
+- Using sample data: 
+    - Import database from `database.sql`.
+    
+- Don't use sample data:
+    - Run `composer install` to install vendor packages.
+    
+    - Run `php artisan migrate` to create database structure with no sample data or import default database from `database.sql` if you need sample data.
 
-* Run `php artisan cms:user:create` to create admin user
+    - Run `php artisan cms:user:create` to create admin user.
+    
+    - Run `php artisan cms:theme:activate lara-mag`
 
-* Run `php artisan vendor:publish --tag=cms-public --force`
+- If you're pulled source code from GIT server:
+    - Run `php artisan vendor:publish --tag=cms-public --force`
+    - Run `php artisan cms:theme:assets:publish`
 
-* Run `php artisan cms:theme:activate simple-blog`
-
-* Go to Admin -> Plugins then activate all plugins
-
-* Run the first test with command `php artisan serve`. Open `http://localhost:8000`, you should see home page of Simple Blog
+- Run web locally:
+    - Run `php artisan serve`. Open `http://localhost:8000`, you should see the homepage.
+    - Go to `/admin` to access to admin panel.
+    - If you're using sample data, the default admin account is `botble` - `159357`.
+    - If you don't use sample data, you need to go to Admin -> Plugins then activate all plugins.
 
 > {note} If you're a Laravel developer or you want to customize our source code in folder `platform/core` & `platform/packages`, 
 > please delete folder `vendor` then run `composer install` to re-install vendor packages before starting change our source code.
 
-**If you need sample data, you can import it from `database.sql`**
-
-**Simple Blog should run on a virtual host. Create a virtual host like cms.local to run Simple Blog. Follow these steps to see how to config virtual host: [Setup virtual host](/simple-blog/2.3/virtualhost).** 
+**Simple Blog should run on a virtual host. Create a virtual host like cms.local to run Simple Blog. Follow these steps to see how to config virtual host: [Setup virtual host](/simple-blog/master/virtualhost).** 
 
 <a name="note"></a>
 ## Note
@@ -70,7 +78,7 @@ Please remove `public` in your domain also, you can point your domain to `public
 
 or use `.httaccess` (https://stackoverflow.com/questions/23837933/how-can-i-remove-public-index-php-in-the-url-generated-laravel)
 
-Follow these steps to see how to config virtual host: [Setup virtual host](/simple-blog/1.0/virtualhost).
+Follow these steps to see how to config virtual host: [Setup virtual host](/simple-blog/master/virtualhost).
 
 Well done! Now, you can login to the dashboard by access to your_domain_site/admin.
 

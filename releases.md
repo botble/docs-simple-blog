@@ -1,7 +1,24 @@
 # Release Notes
 
+- [Simple Blog 1.3](#version_1_3)
 - [Simple Blog 1.2](#version_1_2)
 - [Simple Blog 1.1](#version_1_1)
+
+<a name="version_1_3"></a>
+### 01-05-2020
+
+- Update to the latest Laravel version 7.8.
+- Refactor code & optimize performance.
+- Add backup commands:
+    - php artisan cms:backup:create
+    - php artisan cms:backup:restore
+    - php artisan cms:backup:remove
+    - php artisan cms:backup:list
+- Fix image's watermark.
+- Change default avatar, remove Gravatar as default avatar.
+- Fix widget & plugin language.
+- Remove package `davejamesmiller/laravel-breadcrumbs`, build own breadcrumbs.
+- Fix theme options when using `editor` field.
 
 <a name="version_1_2"></a>
 ### 29-03-2020

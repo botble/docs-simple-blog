@@ -1,8 +1,20 @@
 # Release Notes
 
+- [Simple Blog 1.4](#version_1_4)
 - [Simple Blog 1.3](#version_1_3)
 - [Simple Blog 1.2](#version_1_2)
 - [Simple Blog 1.1](#version_1_1)
+
+<a name="version_1_4"></a>
+### 29-05-2020
+
+- Update to the latest Laravel version 7.13.
+- Improve media module: support upload chunk size.
+- Improve email system.
+- Move `js-validation` package to `core`.
+- Upgrade jQuery to v3.5.1 and Bootstrap 4.5.0.
+- Improve admin UI.
+- Refactor code.
 
 <a name="version_1_3"></a>
 ### 01-05-2020

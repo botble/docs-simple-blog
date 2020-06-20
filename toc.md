@@ -5,6 +5,7 @@
     - [Upgrade Guide](upgrade.md)
 - Getting Started
     - [Installation](installation.md)
+    - [License](license.md)
     
 - Available plugins
     - [Analytics](plugin-analytics.md)

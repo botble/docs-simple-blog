@@ -1,9 +1,22 @@
 # Release Notes
 
+- [Simple Blog 1.5](#version_1_5)
 - [Simple Blog 1.4](#version_1_4)
 - [Simple Blog 1.3](#version_1_3)
 - [Simple Blog 1.2](#version_1_2)
 - [Simple Blog 1.1](#version_1_1)
+
+<a name="version_1_5"></a>
+### 03-07-2020
+
+- Update to the latest Laravel version 7.18.
+- Optimize database queries.
+- Add support Recaptcha v3.
+- Improve cookie consent.
+- Fix bugs plugin Language.
+- Add default open graph image.
+- Improve admin UI.
+- Refactor code.
 
 <a name="version_1_4"></a>
 ### 29-05-2020

@@ -6,6 +6,12 @@
 - [Simple Blog 1.2](#version_1_2)
 - [Simple Blog 1.1](#version_1_1)
 
+## Simple Blog 1.5.1
+### 09-07-2020
+
+- Add support DigitalOcean Spaces
+
+
 <a name="version_1_5"></a>
 ### 03-07-2020
 

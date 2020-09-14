@@ -1,11 +1,29 @@
 # Release Notes
 
+- [Simple Blog 1.7](#version_1_7)
 - [Simple Blog 1.6](#version_1_6)
 - [Simple Blog 1.5](#version_1_5)
 - [Simple Blog 1.4](#version_1_4)
 - [Simple Blog 1.3](#version_1_3)
 - [Simple Blog 1.2](#version_1_2)
 - [Simple Blog 1.1](#version_1_1)
+
+## Simple Blog 1.7
+### 15-09-2020
+- Update to Laravel version 7.28
+- Update homepage & blog page settings. Now, it's moved into Appearance -> Theme options.
+- Move settings for Cookie Consent into Appearance -> Theme options.
+- Add theme options to enable/disable Facebook chat, Facebook comment.
+- Add settings for watermark. Now, you can add watermark by changing setting in Admin -> Settings -> Media.
+- Allow to change permalink in Admin -> Settings -> Permalinks.
+- Add language settings. Allow to set default language in Admin -> Settings -> General.
+- Allow admin to login using email or username.
+- Optimize queries to make site loads faster.
+- Update UI.
+- Refactor code.
+- Fix webpack.mix.js config, issue with path on Windows.
+- Fix assets path.
+- Fix copy folder in Admin -> Media.
 
 ## Simple Blog 1.6
 ### 05-08-2020

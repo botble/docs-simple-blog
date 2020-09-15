@@ -13,7 +13,6 @@
 - Update to Laravel version 7.28
 - Update homepage & blog page settings. Now, it's moved into Appearance -> Theme options.
 - Move settings for Cookie Consent into Appearance -> Theme options.
-- Add theme options to enable/disable Facebook chat, Facebook comment.
 - Add settings for watermark. Now, you can add watermark by changing setting in Admin -> Settings -> Media.
 - Allow to change permalink in Admin -> Settings -> Permalinks.
 - Add language settings. Allow to set default language in Admin -> Settings -> General.

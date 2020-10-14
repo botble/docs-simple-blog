@@ -1,5 +1,6 @@
 # Upgrade Guide
 
+- [Upgrade to 1.8](#version_1_8)
 - [Upgrade to 1.7](#version_1_7)
 - [Upgrade to 1.6](#version_1_6)
 - [Upgrade to 1.5](#version_1_5)
@@ -7,6 +8,20 @@
 - [Upgrade to 1.3](#version_1_3)
 - [Upgrade to 1.2](#version_1_2)
 
+<a name="version_1_8"></a>
+## Upgrade to version 1.8
+
+- Override folder `app`, `bootstrap`, `config`, `platform`, `public/themes`, `public/vendor` and `resources/lang` from the latest version.
+
+- For developers:
+    - Update file `composer.json` and `composer.lock` from new source code.
+    - Delete folder `/vendor` then run `composer install` to upgrade vendor packages.
+    - Run `php artisan optimize:clear` to clear cache.
+    
+- For non-developers:
+    - Override folder `/vendor` from the latest version.
+    - Delete all files in `storage/framework/views` and `storage/framework/cache`.
+    
 <a name="version_1_7"></a>
 ## Upgrade to version 1.7
 
